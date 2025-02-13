@@ -17,8 +17,8 @@ def tarea():
     tiempo_actual = time.strftime("%H:%M:%S")
     print(f"La tarea se ejecutó a las {tiempo_actual}")
 
-    # Programar la tarea cada minuto
-    schedule.every(1).minutes.do(tarea)
+# Programar la tarea cada minuto
+schedule.every(1).minutes.do(tarea)
 
 
 print("Iniciando el bucle principal...")
