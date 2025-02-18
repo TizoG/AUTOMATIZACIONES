@@ -22,7 +22,7 @@ Charlie,35 años, Chicago
 #   file.write("Charlie,35 años,Chicago\n")
 import csv
 # Especifique la ruta del archivo CSV
-ruta_archivo = "C:/Users/Trabajo/Desktop/Proyectos astro, React y Django/Python/AUTOMATIZACIONES/03 Trabajar con datos en varios formatos/data.csv"
+ruta_archivo = "tu directorio/03 Trabajar con datos en varios formatos/data.csv"
 
 # Abra el archivo CSV para leer
 with open(ruta_archivo, 'r') as archivo_csv:

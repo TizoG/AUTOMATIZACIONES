@@ -8,7 +8,7 @@ import os
 
 
 def realizar_automatizacion():
-    directorio = "C:/Users/Trabajo/Desktop/Proyectos astro, React y Django/Python/Carpeta ejercicios prueba automatizaciones"
+    directorio = "tu directorio"
     archivos = os.listdir(directorio)
     result_label.config(text="\n".join(archivos))
 

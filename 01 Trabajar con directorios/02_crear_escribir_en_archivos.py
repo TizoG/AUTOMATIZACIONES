@@ -7,7 +7,7 @@
 import os
 
 # Especifique la ruta del archivo que desea crear.
-file_path = "C:/Users/Trabajo/Desktop/Proyectos astro, React y Django/Python/Carpeta ejercicios prueba automatizaciones/Ejercicios/archivo.txt"
+file_path = "tu directorio/archivo.txt"
 
 
 # abrimos el archivo en modo escritura

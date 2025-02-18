@@ -8,8 +8,8 @@ import shutil
 # Especifique la ruta del archivo original y el nuevo nombre o ruta
 ##
 
-ruta_original = "C:/Users/Trabajo/Desktop/Proyectos astro, React y Django/Python/Carpeta ejercicios prueba automatizaciones/Ejercicios/archivo.txt"
-nueva_ruta = "C:/Users/Trabajo/Desktop/Proyectos astro, React y Django/Python/Carpeta ejercicios prueba automatizaciones/nuevo_nombre.txt"
+ruta_original = "tu directorio/archivo.txt"
+nueva_ruta = "tu directorio/nuevo_nombre.txt"
 
 ##
 # Cambiar el nombre o mover el archivo

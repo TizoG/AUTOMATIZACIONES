@@ -5,7 +5,7 @@ Podemos hacerlo importando el modulo "os"
 import os
 
 # Especifica la ruta del nuevo directorio.
-new_directory_path = "C:/Users/Trabajo/Desktop/Proyectos astro, React y Django/Python/Carpeta ejercicios prueba automatizaciones/Ejercicios"
+new_directory_path = "tu directorio"
 
 # Crear el directorio
 # os.mkdir(new_directory_path)
@@ -13,7 +13,7 @@ new_directory_path = "C:/Users/Trabajo/Desktop/Proyectos astro, React y Django/P
 
 # Listado de archivos en un directorio
 # Especificar la ruta del directorio
-directorio = "C:/Users/Trabajo/Desktop/Proyectos astro, React y Django/Python/Carpeta ejercicios prueba automatizaciones"
+directorio = "tu directorio"
 
 # Listar todos los archivos en el directorio
 archivos = os.listdir(directorio)

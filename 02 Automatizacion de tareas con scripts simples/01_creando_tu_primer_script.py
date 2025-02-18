@@ -16,7 +16,7 @@
 import os
 
 # Especifica la ruta de la carpeta con los archivos.
-carpeta = "C:/Users/Trabajo/Desktop/Proyectos astro, React y Django/Python/Carpeta ejercicios prueba automatizaciones"
+carpeta = "tu directorio/Carpeta ejercicios prueba automatizaciones"
 
 # Listar todos los archivos en la carpeta
 archivos = os.listdir(carpeta)

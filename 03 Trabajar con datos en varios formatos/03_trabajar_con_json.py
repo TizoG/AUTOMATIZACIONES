@@ -7,7 +7,7 @@
 import json
 
 # especifique la ruta del archivo JSON
-ruta_archivo = "C:/Users/Trabajo/Desktop/Proyectos astro, React y Django/Python/AUTOMATIZACIONES/03 Trabajar con datos en varios formatos/data.json"
+ruta_archivo = "tu directorio/03 Trabajar con datos en varios formatos/data.json"
 
 # Abra el archivo JSON para leer
 with open(ruta_archivo, mode='r') as json_file:
