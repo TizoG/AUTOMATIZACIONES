@@ -17,13 +17,20 @@ def tarea():
     tiempo_actual = time.strftime("%H:%M:%S")
     print(f"La tarea se ejecutó a las {tiempo_actual}")
 
+
     # Programar la tarea cada minuto
-    schedule.every(1).minutes.do(tarea)
+schedule.every(1).minutes.do(tarea)
 
 
 print("Iniciando el bucle principal...")
 # Ejecución continua del programa
 while True:
-    print("Ejecutando run_pending()...")
+
     schedule.run_pending()
     time.sleep(1)
+
+
+"""
+La funcion 'tarea' imprime la hora actual cada vez que se llama.
+Usando 'scheddule', programamos esta funciion para que se ejecute cada minuto
+"""
