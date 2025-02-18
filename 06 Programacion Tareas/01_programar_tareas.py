@@ -18,7 +18,7 @@ def tarea():
     print(f"La tarea se ejecutó a las {tiempo_actual}")
 
 
-    # Programar la tarea cada minuto
+# Programar la tarea cada minuto
 schedule.every(1).minutes.do(tarea)
 
 
