@@ -20,6 +20,18 @@ telefonos = numeros_telefono.findall(
 print(telefonos)
 
 
-# TODO: Crear expresion regular para extraer correos electronicos
+emails = re.compile(
+    r"""
+    [a-zA-Z0-9]+            # Letras o números al inicio
+    (?:[.-_][a-zA-Z0-9]+)*    # Puede haber . - _ pero no al inicio o al final
+    @
+    (?:hotmail|gmail)         # Dominios permitidos
+    (?:\.com|\.es|\.net)      # Extensiones permitidas
+    """, re.VERBOSE
+)
+email = emails.findall(
+    "aqui puede haber un email pepe@hotmail.com tambien puede haber  juan.perez@gmail.es o ya si eso  user_123-hotmail.net")
+print(email)
+
 # TODO: Buscar coincidencias en el texto del portapapeles
 # TODO: Copiar resultados al portapapeles y mostrar mensaje
