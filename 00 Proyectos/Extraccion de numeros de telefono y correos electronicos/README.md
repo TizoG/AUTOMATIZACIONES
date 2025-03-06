@@ -52,26 +52,3 @@ El código implementará las siguientes características:
 [No Starch Press Contact Page](http://www.nostarch.com/contactus.htm)
 
 ---
-
-## 🚀 Desafíos Adicionales para Práctica
-
-### 🔐 Detección de Contraseñas Seguras
-
-Escribe una función que utilice expresiones regulares para validar contraseñas seguras. Una contraseña segura debe cumplir con los siguientes requisitos:
-
-✔️ Al menos 8 caracteres de longitud.
-✔️ Contener letras mayúsculas y minúsculas.
-✔️ Incluir al menos un dígito.
-
-💡 **Sugerencia:** Prueba diferentes patrones de expresiones regulares hasta encontrar uno que valide correctamente estos criterios.
-
-### ✂️ Versión Regex de `strip()`
-
-Implementa una función que imite el comportamiento del método `strip()`.
-
-📝 Reglas:
-
--   Si solo se proporciona la cadena, elimina los espacios en blanco al inicio y al final.
--   Si se pasa un segundo argumento, elimina los caracteres especificados en dicho argumento.
-
----

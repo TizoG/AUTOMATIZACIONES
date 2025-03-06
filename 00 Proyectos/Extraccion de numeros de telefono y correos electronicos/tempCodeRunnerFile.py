@@ -1,1 +1,1 @@
-pyperclip.paste()
+\d{1,4}
